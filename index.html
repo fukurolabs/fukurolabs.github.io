@@ -15,20 +15,18 @@
     }
     a { text-decoration: none; }
 
-    /* Immagini con glow costante + hover */
     img {
         max-width: 100%;
         height: auto;
         display: block;
         margin: 20px auto;
         border-radius: 12px;
-        /* Glow costante */
         box-shadow: 0 0 15px rgba(255,127,0,0.6);
         transition: transform 0.4s, box-shadow 0.4s;
     }
     img:hover {
         transform: scale(1.05);
-        box-shadow: 0 0 35px rgba(255,183,71,0.9); /* Glow più intenso al hover */
+        box-shadow: 0 0 35px rgba(255,183,71,0.9);
     }
 
     h1 { font-size: 56px; margin: 20px 0 10px 0; text-shadow: 2px 2px 8px #ff7f00; }
@@ -103,10 +101,11 @@
     <a class="buy-button" href="https://pump.fun/coin/95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump">Buy Token</a>
 </div>
 
-<!-- Mission Section -->
+<!-- Mission Section + Banner subito sotto -->
 <div class="section">
     <h2>🎯 Mission</h2>
     <img src="./assets/mission.png" alt="Mission Image" width="400">
+    <img src="./assets/banner.png" alt="Banner Image" width="800">
     <p>FUKURO is a community-driven project. Our mission is to grow with our holders, strengthen the community, and gradually introduce real utility for the token over time.</p>
 </div>
 
@@ -130,11 +129,6 @@
     <img src="./assets/roadmap.png" alt="FUKURO Roadmap" width="800">
 </div>
 
-<!-- Banner Section -->
-<div class="section">
-    <img src="./assets/banner.png" alt="FUKURO Banner" width="800">
-</div>
-
 <!-- Contract Address -->
 <div class="section">
     <h2>📜 Contract Address (Solana)</h2>
@@ -147,7 +141,6 @@
 </div>
 
 <script>
-    // Fade-in per sezione
     const sections = document.querySelectorAll('.section');
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -156,7 +149,6 @@
             }
         });
     }, { threshold: 0.2 });
-
     sections.forEach(section => observer.observe(section));
 </script>
 
