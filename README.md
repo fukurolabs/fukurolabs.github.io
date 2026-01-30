@@ -1,62 +1,55 @@
-<div style="background-color:#000000; color:#ffffff; padding:30px; text-align:center; font-family:Arial, sans-serif;">
+<div align="center">
 
-<img src="./assets/logo1.png" alt="FUKURO Logo + Name" width="300" style="margin-bottom:20px;" />
+<img src="./assets/logo1.png" alt="FUKURO Logo + Name" width="300" />
 
-<h1 style="margin-bottom:10px;">🦉 FUKURO</h1>
-<h3 style="margin-top:0; margin-bottom:20px;">A Community-Driven Crypto Project</h3>
+# 🦉 FUKURO
 
-<p><strong>Built by the community. Growing with purpose.</strong></p>
+### A Community-Driven Crypto Project
 
-<p style="margin-bottom:30px;">
-<a href="https://x.com/fukurolabs">
-  <img src="https://img.shields.io/badge/X%20(Twitter)-Follow-blue?style=for-the-badge" alt="Twitter" />
-</a>
-<a href="https://t.me/FUKUROLABSInvestors">
-  <img src="https://img.shields.io/badge/Telegram-Join-26A5E4?style=for-the-badge" alt="Telegram" />
-</a>
-<a href="https://pump.fun/coin/95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump">
-  <img src="https://img.shields.io/badge/Pump.fun-Buy-orange?style=for-the-badge" alt="Pump.fun" />
-</a>
-</p>
+**Built by the community. Growing with purpose.**
 
-<img src="./assets/banner.png" alt="FUKURO Banner" width="100%" style="margin-bottom:30px;" />
+[![X Twitter](https://img.shields.io/badge/X%20(Twitter)-Follow-blue?style=for-the-badge)](https://x.com/fukurolabs)
+[![Telegram](https://img.shields.io/badge/Telegram-Join-26A5E4?style=for-the-badge)](https://t.me/FUKUROLABSInvestors)
+[![Pump.fun](https://img.shields.io/badge/Pump.fun-Buy-orange?style=for-the-badge)](https://pump.fun/coin/95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump)
+
+---
+
+<img src="./assets/banner.png" alt="FUKURO Banner" width="100%" />
+
+---
 
 ## 🌐 Official Links
 
-| Platform | Link |
-|--------|------|
-| 🐦 X (Twitter) | https://x.com/fukurolabs |
-| 🛒 Buy on Pump.fun | https://pump.fun/coin/95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump |
-| 💬 Telegram Investors | https://t.me/FUKUROLABSInvestors |
+- 🐦 [X (Twitter)](https://x.com/fukurolabs)  
+- 🛒 [Buy on Pump.fun](https://pump.fun/coin/95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump)  
+- 💬 [Telegram Investors](https://t.me/FUKUROLABSInvestors)  
 
 ---
 
 ## 📜 Contract Address (Solana)
 
-95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump
+`95c9mMSMK81VNHFv6hb7naaWtbjqqLCC4PZcoScypump`
 
 ---
 
 ## 🦉💎 FUKURO ROADMAP 💎🦉
 
-<img src="./assets/roadmap.png" alt="FUKURO Roadmap" width="100%" style="margin-bottom:30px;" />
+<img src="./assets/roadmap.png" alt="FUKURO Roadmap" width="100%" />
 
 ---
 
 ## 🦉 The Vision
 
-<img src="./assets/logo2.png" alt="FUKURO Logo" width="200" style="margin-bottom:30px;" />
+<img src="./assets/logo2.png" alt="FUKURO Logo" width="200" />
 
-<p>
-FUKURO is patience.<br/>
-FUKURO is community.<br/>
-FUKURO is long-term thinking.
-</p>
+FUKURO is patience.  
+FUKURO is community.  
+FUKURO is long-term thinking.  
 
-<p>We don’t chase charts.<br/>
-We build foundations.</p>
+We don’t chase charts.  
+We build foundations.  
 
-<h2>✨ The journey has only just begun ✨</h2>
-<h3><strong>Follow the owl 🦉</strong></h3>
+✨ The journey has only just begun ✨  
+**Follow the owl 🦉**
 
 </div>
