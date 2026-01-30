@@ -15,19 +15,20 @@
     }
     a { text-decoration: none; }
 
-    /* Immagini con glow */
+    /* Immagini con glow costante + hover */
     img {
         max-width: 100%;
         height: auto;
         display: block;
         margin: 20px auto;
-        transition: transform 0.4s, box-shadow 0.4s, filter 0.4s;
         border-radius: 12px;
-        filter: drop-shadow(0 0 10px #ff7f00);
+        /* Glow costante */
+        box-shadow: 0 0 15px rgba(255,127,0,0.6);
+        transition: transform 0.4s, box-shadow 0.4s;
     }
     img:hover {
         transform: scale(1.05);
-        filter: drop-shadow(0 0 25px #ffb347);
+        box-shadow: 0 0 35px rgba(255,183,71,0.9); /* Glow più intenso al hover */
     }
 
     h1 { font-size: 56px; margin: 20px 0 10px 0; text-shadow: 2px 2px 8px #ff7f00; }
@@ -39,7 +40,7 @@
     .section.visible { opacity: 1; transform: translateY(0); }
 
     .buttons img { margin: 10px; transition: transform 0.3s, box-shadow 0.3s; }
-    .buttons img:hover { transform: scale(1.2); box-shadow: 0 0 20px #ff7f00; }
+    .buttons img:hover { transform: scale(1.2); box-shadow: 0 0 25px #ff7f00; }
 
     .buy-button {
         display: inline-block;
@@ -52,9 +53,9 @@
         margin: 20px 0;
         text-transform: uppercase;
         transition: transform 0.3s, box-shadow 0.4s;
-        box-shadow: 0 0 15px #ff7f00;
+        box-shadow: 0 0 20px #ff7f00;
     }
-    .buy-button:hover { transform: scale(1.15); box-shadow: 0 0 25px #ffb347; }
+    .buy-button:hover { transform: scale(1.15); box-shadow: 0 0 40px #ffb347; }
 
     .follow-owl {
         font-size: 38px;
@@ -62,14 +63,14 @@
         margin-top: 60px;
         margin-bottom: 50px;
         color: #ff7f00;
-        text-shadow: 0 0 20px #ff7f00;
+        text-shadow: 0 0 25px #ff7f00;
         animation: pulse 2s infinite;
     }
 
     @keyframes pulse {
-        0% { text-shadow: 0 0 15px #ff7f00; }
-        50% { text-shadow: 0 0 35px #ffb347; }
-        100% { text-shadow: 0 0 15px #ff7f00; }
+        0% { text-shadow: 0 0 20px #ff7f00; }
+        50% { text-shadow: 0 0 50px #ffb347; }
+        100% { text-shadow: 0 0 20px #ff7f00; }
     }
 
     @media screen and (max-width: 768px) {
@@ -146,7 +147,7 @@
 </div>
 
 <script>
-    // Fade-in effect for each section
+    // Fade-in per sezione
     const sections = document.querySelectorAll('.section');
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
